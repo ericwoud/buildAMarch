@@ -8,4 +8,9 @@ https://github.com/ericwoud/archlinuxarm-repo/tree/linux-am335x-git
 
 Linux package can be build on x86-64 machine also.
 
-See releases for image file
+See releases for image file.
+
+Use command:
+```
+xz -dc am3359.img.xz | dd of=/dev/device status=progress
+```
